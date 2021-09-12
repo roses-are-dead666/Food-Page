@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,18 +35,74 @@
         </header>
     <!-- Header end -->
 
-    <!-- Search Form -->
+    <!-- Search Form start-->
         <form action="" id="searchForm">
             <input type="search" placeholder="Type here..." name="" id="searchBox">
             <label for="searchBox" class="fas fa-search"></label>
             <i class="far fa-times" id="close"></i>
         </form>
-
-
-
-    <!-- JS LINK -->
+    <!-- Search Form end-->
     
+    <!-- Home section start -->
+        <section class="home" id="home">
+            <div class="swiper homeSlider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slider">
+                        <div class="content">
+                            <span>Our special dish</span>
+                            <h3>spicy noodles</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Libero quos nisi maiores.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/home-img-1.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slider">
+                        <div class="content">
+                            <span>Our special dish</span>
+                            <h3>fried chicken</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Libero quos nisi maiores.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/home-img-2.png">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slider">
+                        <div class="content">
+                            <span>Our special dish</span>
+                            <h3>hot pizza</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Libero quos nisi maiores.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="./images/home-img-3.png">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+                
+            </div>
+        </section>
+
+
+
+    <!-- Home section end -->
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Js link start -->
     <script src="./JS/scripts.js"></script>
-    
+    <!-- Js link end -->
+
 </body>
 </html>
