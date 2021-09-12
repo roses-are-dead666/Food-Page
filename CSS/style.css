@@ -145,6 +145,71 @@ header .icons #menuBar {
     color: var(--green);
 }
 
+section {
+    padding: 2rem 9%;
+}
+
+section:nth-child(even) {
+    background: #eee;
+}
+
+.home .homeSlider .slider {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
+
+.home .homeSlider .slider .content {
+    flex: 1 1 45rem;
+}
+
+.home .homeSlider .slider .image {
+    flex: 1 1 45rem;
+}
+
+.home .homeSlider .slider .image img {
+    width: 100%;
+}
+
+.home .homeSlider .slider .content span {
+    color: var(--green);
+    font-size: 2.5rem;
+}
+
+.home .homeSlider .slider .content h3 {
+    color: var(--black);
+    font-size: 7rem;
+}
+
+.home .homeSlider .slider .content p {
+    color: var(--light-color);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover {
+    background: var(--green);
+    letter-spacing: .1rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--green);
+}
+
 
 
 
@@ -206,6 +271,11 @@ header .icons #menuBar {
     header {
         padding: 1rem 2rem;
     }
+
+    section {
+        padding: 2rem;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -241,6 +311,10 @@ header .icons #menuBar {
     #searchForm #searchBox {
         width: 90%;
         margin: 0 1rem;
+    }
+
+    .home .homeSlider .slider .content h3 {
+        font-size: 5rem;
     }
     
 }
