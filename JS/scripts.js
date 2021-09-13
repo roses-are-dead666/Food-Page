@@ -19,6 +19,7 @@ document.querySelector("#close").onclick = () => {
     document.querySelector("#searchForm").classList.remove('active')
 }
 
+// Home slider start
 var swiper = new Swiper(".homeSlider", {
     spaceBetween: 30,
     centeredSlides: true,
@@ -31,4 +32,31 @@ var swiper = new Swiper(".homeSlider", {
       clickable: true,
     },
     loop: true,
-  });
+});
+// Home slider end
+
+// Reviews slider start
+var swiper = new Swiper(".reviewsSlider", {
+  spaceBetween: 20,
+  centeredSlides: true,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
+  loop: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
+// Reviews slider end
