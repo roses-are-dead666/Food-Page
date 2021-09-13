@@ -445,9 +445,52 @@ section:nth-child(even) {
     font-size: 2.5rem;
 }
 
+.reviews .slider {
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    border-radius: .5rem;
+    position: relative;
+}
 
+.reviews .slider .fa-quote-right {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 6rem;
+    color: #ccc;
+}
 
+.reviews .slider .user {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
 
+.reviews .slider .user img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .slider .user h3 {
+    color: var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.reviews .slider .user i {
+    font-size: 1.3rem;
+    color: var(--green);
+}
+
+.reviews .slider p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+}
 
 
 
