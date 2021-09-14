@@ -553,7 +553,29 @@ section:nth-child(even) {
     margin-top: 0;
 }
 
+.footer .boxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
 
+.footer .boxContainer .box h3 {
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.footer .boxContainer .box a {
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.footer .boxContainer .box a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
 
 
 
